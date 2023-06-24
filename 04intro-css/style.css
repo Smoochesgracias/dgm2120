@@ -9,18 +9,18 @@ margin: 0;
 }
 /*Header*/
 header {
-    color: #505c5c;
+    color: Black;
     background-color: #fff;
     padding: 2rem 2%;
 }
 header h1 {
     margin: 0;
-    color:#505c5c;
+    color: black;
 
 }
 header p {
     margin: 0;
-    color: #757575;
+    color: #505c5c;
     letter-spacing: .9px;
 
 }
@@ -66,14 +66,14 @@ nav {
     width: 100%;
  }
 main h1 {
-    color: #505c5c;
+    color: black;
 }
 main h2 {
-    color: #757575;
+    color: black;
     margin-bottom: .2rem;
 }
 main h3 {
-    color: #71c8fc;
+    color: black;
     margin-bottom: .2rem;
     font-weight: 600;
     font-size: 18px;
@@ -81,13 +81,13 @@ main h3 {
 }
 
 main p {
-    color: #757575;
+    color: black;
     margin-bottom: .3rem;
 }
 
 main ol {
     padding: 1rem 3%;
-    background-color: #b3aba1;
+    background-color: #71c8fc;
     border-radius: 1rem;
     border: 1px solid #505c5c;
 
@@ -104,11 +104,11 @@ main ol li a:hover {
 
 main dl dt {
 
-    color: #505c5c;
+    color: black;
     font-weight: 600;
 }
 main dl dd {
-    color: #757575;
+    color: black;
     font-size: .9rem;
 }
 main ul {
@@ -122,12 +122,12 @@ main ul li {
 
 }
 main a {
-    color: #757575;
+    color: black;
 
 }
 
 main a:hover {
-    color: #71c8fc;
+    color: white;
 }
 /*image*/
 img {
