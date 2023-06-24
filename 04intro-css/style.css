@@ -10,7 +10,7 @@ margin: 0;
 /*Header*/
 header {
     color: #505c5c;
-    background-color: #fffcf9;
+    background-color: #fff;
     padding: 2rem 2%;
 }
 header h1 {
@@ -20,40 +20,50 @@ header h1 {
 }
 header p {
     margin: 0;
-    color:#505c5c;
+    color: #757575;
     letter-spacing: .9px;
 
 }
 /*Navigation Bar*/
 nav {
-    background-color: #95a7b3;
-    
+    background-color: #fdbd2c;
+    padding: 0rem .5rem;
+    width: 100%;
+   
+
+  
 }
  nav ul {
     list-style-type: none;
-    padding: 1rem 2%;
     margin: 0;
     display: flex;
+ 
+ }
+ nav ul li {
+ 
  }
  nav ul li a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
-    color: #fffcf9;
-    font-weight: 700;
     display: block;
-    padding: .2rem 4rem;
+    color: black;
+    font-weight: 700;
+    padding: 5px 20px; 
+    height: 35px;
+    box-sizing: border-box;
  }
- nav li .active a {
+ nav li a.active {
     background-color:#505c5c;
-    color: #b3aba1;
+    color: #fff;
  }
  nav a:hover {
-    color: #505c5c;
+    color: #fff;
  }
  /*Main*/
  main {
     padding: 2rem 2%;
-    background-color: #fffcf9;
+    background-color: #fff;
+    width: 100%;
  }
 main h1 {
     color: #505c5c;
@@ -63,7 +73,7 @@ main h2 {
     margin-bottom: .2rem;
 }
 main h3 {
-    color: #95a7b3;
+    color: #71c8fc;
     margin-bottom: .2rem;
     font-weight: 600;
     font-size: 18px;
@@ -84,7 +94,7 @@ main ol {
 }
 main ol li a {
     font-weight: 400;
-    color: #fffcf9;
+    color: #fff;
    
 }
 main ol li a:hover {
@@ -117,17 +127,13 @@ main a {
 }
 
 main a:hover {
-    color: #95a7b3;
+    color: #71c8fc;
 }
 /*image*/
 img {
-    width: 60%;
+    width: 30%;
     height: 50%;
-    border: 1.5px solid #505c5c;
-
-
-   
-   
+    border: 1.5px solid #505c5c;  
 }
 
 
@@ -136,13 +142,13 @@ footer {
     font-style: normal;
     font-size: .8rem;
     text-align: center;
-    background-color: #95a7b3;
+    background-color: #fdbd2c;
     padding: 1rem 3%;
-    color: #fffcf9;
+    color: black;
     border: 1px solid #505c5c;
 
     
 }
 footer a {
-    color: #fffcf9;
+    color: black;
 }
