@@ -87,14 +87,14 @@ main p {
 
 main ol {
     padding: 1rem 3%;
-    background-color: #71c8fc;
+    background-color: lightpink;
     border-radius: 1rem;
     border: 1px solid #505c5c;
 
 }
 main ol li a {
     font-weight: 400;
-    color: #fff;
+    color: black;
    
 }
 main ol li a:hover {
