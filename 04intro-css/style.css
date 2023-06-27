@@ -37,11 +37,8 @@ nav {
     list-style-type: none;
     margin: 0;
     display: flex;
- 
  }
- nav ul li {
  
- }
  nav ul li a {
     font-size: 1rem;
     text-decoration: none;
