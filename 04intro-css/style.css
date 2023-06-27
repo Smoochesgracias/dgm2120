@@ -1,10 +1,10 @@
 body {
     font-family: 'Figtree', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oxygen', sans-serif;
-font-size: 16px;
-font-weight: 300;
-margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
 
 }
 /*Header*/
@@ -29,7 +29,7 @@ nav {
     background-color: #fdbd2c;
     padding: 0rem .5rem;
     width: 100%;}
-    
+
  nav ul {
     list-style-type: none;
     margin: 0;
@@ -124,25 +124,8 @@ main a:hover {
     color: white;
 }
 /*image*/
-img. {
-    width: 30%;
-    height: 50%;
-    border: 1.5px solid #505c5c;  
-    float: center;
-}
 
-figure. {
-    width: 30%;
-    margin: 0 0 0 3%;
-    float: right;
 
-}
-
-figure.img {
-    width: 30%;
-    height: auto;
-
-}
 figure.figcaption {
     text-align: center;
     font-size: medium;
