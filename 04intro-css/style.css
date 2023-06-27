@@ -28,11 +28,8 @@ header p {
 nav {
     background-color: #fdbd2c;
     padding: 0rem .5rem;
-    width: 100%;
-   
-
-  
-}
+    width: 100%;}
+    
  nav ul {
     list-style-type: none;
     margin: 0;
