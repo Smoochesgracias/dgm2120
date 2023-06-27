@@ -130,13 +130,44 @@ main a:hover {
     color: white;
 }
 /*image*/
-img {
+img. {
     width: 30%;
     height: 50%;
     border: 1.5px solid #505c5c;  
+    float: center;
 }
 
+figure. {
+    width: 30%;
+    margin: 0 0 0 3%;
+    float: right;
 
+}
+
+figure.img {
+    width: 30%;
+    height: auto;
+
+}
+figure.figcaption {
+    text-align: center;
+    font-size: medium;
+}
+
+div.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.portfolio figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.portfolio figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #505c5c;
+}
+ 
 /*footer*/
 footer {
     font-style: normal;
