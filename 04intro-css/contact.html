@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="contactpage" content="contact page with owner names and descriptions.">
+    <meta name="contactpage" content="contact page with owner names and formats.">
     <title>CONTACT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,78 +19,76 @@
     <p>creative content to brighten your space</p>
 </header>
 
-
-<!--start of Navigation Bar-->
 <nav id="top-page">
     <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="portfolio.html">PORTFOLIO</a></li> 
-        <!-- <li><a href="commission.html">COMMISSION</a></li> -->
-        <li><a class="active"href="contact.html">CONTACT</a></li>
-        <!-- <li><a href="login.html">LOGIN</a></li> -->
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a class="active" href="contact.html">CONTACT</a></li>
+        <!--<li><a href="login.html">LOGIN</a></li> -->
          
     </ul>
  </nav>
- 
- <main>
-    <h2>CONTACT</h2>
-    <dl>
-        <dt>Creator</dt>
-        <dd>A person who invents, produces or makes things. Pretty much we are magic!</dd>
-    </dl>
-    <br>
-    <h3>Each team member Specializes in their own field and content type. Let's introduce you to the gang</h3>
-    <br>
-    <h2>DENISE</h2>
-    <dl>
-        <dt>Illustrator</dt>
-        <dd>Image creation using multiple formats formats</dd>
-    </dl>
-    <br>
-    <!--<img src="assets/denise.jpg" alt="woman smiling at her dog"  width="20%">use css later to make it valid-->
-    <p>Denise has been around the block currently the Creative Director of CraftLand she does freelance and craft shows on the side to keep things interesting.</p>
-    <ul>
-        <li>Wrapping Paper</li>
-        <li>Graphic Design</li>
-        <li>Logos</li>
-        <li>Package Design</li>
-    </ul>
-    <br>
-    <h2>Rachel</h2>
-    <dl>
-        <dt>Photographer</dt>
-        <dd>Someone who can create digital and print content through photos</dd>
-    </dl>
-    <br>
-    <!--<img src="assets/Rachel.jpg" alt="woman smiling in glasses" width="25%"><use css later to make it valid-->
-    <p>Rachel is the Photographer and web developer of the group. She is a constant student both figrativley and literally and owner of Sunshiny Studios</p>
-    <br>
-    <h2>Yuri</h2>
-    <dl>
-        <dt>Ceramist</dt>
-        <dd>one who creates with ceramics</dd>
-    </dl>
-    <!--<img src="assets/Yuri2.jpg" alt="a smiling girl in a black top" width="20%">use css later so its valid-->
-   
-    <h1>Who We've Worked With</h2>
-    <br>
-    <ol>
-        <li><a href="https://www.target.com/" target=_blank>Target</a></li>
-        <li><a href="https://www.walmart.com/walmart.com" target=_blank>Walmart</a></li>
-        <li><a href="https://www.tech-moms.org/about" target=_blank>Tech-Moms</a></li>
-        <li><a href="https://craftland.com" target=_blank>CraftLand</a></li>
-    </ol>
-   
+
+<main>
+    <h1>Contact Sunshiny Studios</h1>
+        
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Client Information</legend>
+            <label> First Name*<input type="text" name="fname" required></label>
+            <label> Last Name*<input type="text" name="lname" required></label>
+            <label> Cell Number*<input type="tel" name="phone" required placeholder="801-555-6578"></label>
+            <label> Email*<input type="email" name="email" required placeholder="email@sun.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Method</legend>
+                <label><input type="radio" name="method" value="phone">Text (15min)</label>
+                <label><input type="radio" name="method" value="phone">email (within4hrs)</label>
+                <label><input type="radio" name="method" value="phone">call (15min)</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Meet up Options</legend>
+        <label><input type="checkbox" name="Drinks" value="chosen">Soda Shop in Area (30 min)</label>
+        <label><input type="checkbox" name="Google Meet" value="chosen">Google (meet 15 minutes)</label>
+        <label><input type="checkbox" name="Facetime" value="chosen">Facetime (5 minutes or less)</label>
+
+        <label>
+        <select name="time">
+        <option value="none">Please Select Time</option>
+        <option value="morning">Between 8:00a.m. and 11:00a.m.</option>
+        <option value="afternoon">Between 12:00p.m. and 1:00p.m.</option>
+        <option value="evening">Between 1:00p.m. and 5:00p.m.</option>
+        </select></label>
+
+
+
+        </fieldset>
+
+        <label>Comments
+            <textarea name="comments"></textarea>
+
+        </label>
+
+        <input type="submit" value="Send to Sunshiny Studios"> 
+
+    </form>
+
+
 </main>
+<!--start of Navigation Bar-->
 
-
-    <footer>
-        <p>Friendly Creations In Utah</p>
-        <p>&copy; Sunshiny Studios</p>
-        <p><a href="mailto:sunshinystudios@gmail.com">sunshinystudios@gmail.com</a></p>
-        <a href="tel:801-369-0243">801-369-0243</a>
-        <p>created 6/23 Rachel Takahashi</p> 
-        <a href="#top-page">go to top</a> 
-    </footer>
+ 
+ <!--start of the footer-->
+<footer>
+    
+    <p>Friendly Creations In Utah</p>
+    <p>&copy; Sunshiny Studios</p>
+    <p><a href="mailto:sunshinystudios@gmail.com">sunshinystudios@gmail.com</a></p>
+    <a href="tel:801-369-0243">801-369-0243</a>
+    <p>created 6/23 Rachel Takahashi</p>
+</footer>
 </body>
 </html>

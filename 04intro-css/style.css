@@ -125,6 +125,22 @@ main a:hover {
 }
 /*image*/
 
+/*footer*/
+footer {
+    font-style: normal;
+    font-size: .8rem;
+    text-align: center;
+    background-color: #fdbd2c;
+    padding: 1rem 3%;
+    color: black;
+    border: 1px solid #505c5c;
+
+    
+}
+footer a {
+    color: black;
+}
+
 
 figure.figcaption {
     text-align: center;
@@ -144,19 +160,75 @@ div.portfolio figcaption {
     font-size: .8rem;
     color: #505c5c;
 }
- 
-/*footer*/
-footer {
-    font-style: normal;
-    font-size: .8rem;
+/*contact form*/
+.wrapimage {
+    width: 50%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
+.wrapimage img {
+    width: 100%;
+    height: auto;
+}
+.wrapimage figcaption {
     text-align: center;
-    background-color: #fdbd2c;
-    padding: 1rem 3%;
-    color: black;
-    border: 1px solid #505c5c;
+    font-size: .8rem;
+}
 
-    
+.myForm fieldset {
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
+
 }
-footer a {
-    color: black;
+.myForm legend {
+    color: #43a0b6;
+    font-size: .8rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
 }
+.myForm label {
+    margin: .5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea,.myForm [type=email] {
+    display: block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea, .myForm [type=email] {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
+
+} 
+
+ .myForm textarea {
+    height: 9rem;
+}
+
+.myForm :required {
+    background-color: rgba(156, 51, 53, 0.133);
+}
+
+.myForm [type=submit] {
+    background-color: #43a0b6;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 1rem 0 0 1vw;
+
+}
+
+
