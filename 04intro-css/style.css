@@ -1,3 +1,6 @@
+/* prevent Problems with diffrent browsers*/
+* {box-sizing: border-box;}
+
 body {
     font-family: 'Figtree', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -5,6 +8,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     margin: 0;
+    padding: 0;
 
 }
 /*Header*/
@@ -12,6 +16,11 @@ header {
     color: Black;
     background-color: #fff;
     padding: 2rem 2%;
+    display: flex;
+    align-items: flex-end;
+}
+header div {
+    padding-left: 1vw;
 }
 header h1 {
     margin: 0;
@@ -24,40 +33,111 @@ header p {
     letter-spacing: .9px;
 
 }
-/*Navigation Bar*/
-nav {
-    background-color: #fdbd2c;
-    padding: 0rem .5rem;
-    width: 100%;}
+/*Navigation Stuff Here*/
 
- nav ul {
-    list-style-type: none;
-    margin: 0;
-    display: flex;
- }
+
+/*Small Screens*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        display: flex;
+        list-style-type: none;
+        }
+    
+    
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color:black;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid 1 px orange;
+        border-top: solid 1.5px orange;
+        
+    }
+    
+    nav li a.active {
+        background-color: #239fb0;
+        background-image: linear-gradient(to bottom,orange, #eac8df);
+        color: #fff;
+    
+    nav ul li a {
+        font-size: 1rem;
+        text-decoration: none;
+        display: block;
+        color: black;
+        font-weight: 700;
+        padding: 5px 20px;
+        height: 35px;
+        box-sizing: border-box;
+    }
+    
+  
+    }
+    nav a:hover {
+        color: #fff;
+    }
+    
+    
+    } /*end of media query*/
+    
+    
+   
+    @media only screen and (min-width: 601px) {
+     /*Large Screens*/
+  
+    
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color:black;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid 1 px orange;
+        border-top: solid 1.5px orange;
+
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+    nav ul li a {
+        font-size: 1rem;
+        text-decoration: none;
+        display: block;
+        color: black;
+        font-weight: 700;
+        padding: 5px 20px;
+        height: 35px;
+        box-sizing: border-box;
+    }
+    nav li a.active {
+        background-color: #239fb0;
+        color: #fff;
+    }
+    nav a:hover {
+        color: #239fb0;
+
+      /*end of media query*/
  
- nav ul li a {
-    font-size: 1rem;
-    text-decoration: none;
-    display: block;
-    color: black;
-    font-weight: 700;
-    padding: 5px 20px; 
-    height: 35px;
-    box-sizing: border-box;
- }
- nav li a.active {
-    background-color:#505c5c;
-    color: #fff;
- }
- nav a:hover {
-    color: #fff;
- }
  /*Main*/
  main {
     padding: 2rem 2%;
     background-color: #fff;
     width: 100%;
+
  }
 main h1 {
     color: black;
@@ -77,10 +157,12 @@ main h3 {
 main p {
     color: black;
     margin-bottom: .3rem;
+    padding: 1rem 3%;
+    
 }
 
 main ol {
-    padding: 1rem 3%;
+  
     background-color: lightpink;
     border-radius: 1rem;
     border: 1px solid #505c5c;
@@ -89,6 +171,7 @@ main ol {
 main ol li a {
     font-weight: 400;
     color: black;
+    padding: 1rem 3%;
    
 }
 main ol li a:hover {
@@ -100,6 +183,7 @@ main dl dt {
 
     color: black;
     font-weight: 600;
+    padding: 1rem 3%;
 }
 main dl dd {
     color: black;
@@ -107,23 +191,44 @@ main dl dd {
 }
 main ul {
     list-style-type: circle;
+    padding: 1rem 3%;
 }
 main ul li {
     line-height: 125%;
     margin-bottom: .5rem;
     font-size: .9rem;
-    
-
 }
 main a {
     color: black;
+    padding: 1rem 3%;
 
 }
 
 main a:hover {
     color: white;
 }
+
+}
 /*image*/
+.bluehero {
+  width: 100%;
+  margin: 0; 
+}
+
+.bluehero img {
+    width: 100%;
+    height: auto;
+
+   
+}
+.portfolio {
+    padding-left: 2%;
+
+  
+}
+.portfolio img:hover {
+    box-shadow: 0px 0px 7px grey;
+}
 
 /*footer*/
 footer {
@@ -229,6 +334,11 @@ div.portfolio figcaption {
     color: #ffffff;
     margin: 1rem 0 0 1vw;
 
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }
 
 
