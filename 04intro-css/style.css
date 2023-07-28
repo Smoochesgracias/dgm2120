@@ -43,6 +43,7 @@ header p {
         padding: 0 2vw;
         display: flex;
         list-style-type: none;
+        flex-direction: column;
         }
     
     
@@ -62,7 +63,7 @@ header p {
     }
     
     nav li a.active {
-        background-color: #239fb0;
+        background-color: #43a0b6;
         background-image: linear-gradient(to bottom,orange, #eac8df);
         color: #fff;
     
@@ -81,6 +82,7 @@ header p {
     }
     nav a:hover {
         color: #fff;
+        background-color: #43a0b6;
     }
     
     
@@ -112,6 +114,7 @@ header p {
         padding: 0 2vw;
         margin: 0;
         display: flex;
+      
     }
     nav ul li a {
         font-size: 1rem;
@@ -210,12 +213,12 @@ main a:hover {
 
 }
 /*image*/
-.bluehero {
+.yellow {
   width: 100%;
   margin: 0; 
 }
 
-.bluehero img {
+.yellow img {
     width: 100%;
     height: auto;
 
@@ -228,6 +231,7 @@ main a:hover {
 }
 .portfolio img:hover {
     box-shadow: 0px 0px 7px grey;
+    
 }
 
 /*footer*/
