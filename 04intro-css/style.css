@@ -34,7 +34,22 @@ header p {
 
 }
 /*Navigation Stuff Here*/
+/*footer*/
+footer {
+    font-style: normal;
+    font-size: .8rem;
+    text-align: center;
+    background-color: #fdbd2c;
+    padding: 1rem 3%;
+    color: black;
+    border: 1px solid #505c5c;
+}
 
+
+footer a {
+    color: black;
+   
+}
 
 /*Small Screens*/
 @media only screen and (max-width: 600px) {
@@ -234,22 +249,11 @@ main a:hover {
     
 }
 
-/*footer*/
-footer {
-    font-style: normal;
-    font-size: .8rem;
-    text-align: center;
-    background-color: #fdbd2c;
-    padding: 1rem 3%;
-    color: black;
-    border: 1px solid #505c5c;
+    }
+
 
     
-}
-footer a {
-    color: black;
-}
-
+    
 
 figure.figcaption {
     text-align: center;
@@ -269,6 +273,8 @@ div.portfolio figcaption {
     font-size: .8rem;
     color: #505c5c;
 }
+
+    
 /*contact form*/
 .wrapimage {
     width: 50%;
@@ -345,4 +351,5 @@ header, nav, main, footer {
     margin: 0 auto;
 }
 
+    
 
