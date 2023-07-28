@@ -34,6 +34,14 @@ header p {
 
 }
 /*Navigation Stuff Here*/
+
+/*images*/
+.yellow {
+    width: 100%;
+    height: 100%;
+    margin: 0;  
+}
+
 /*footer*/
 footer {
     font-style: normal;
