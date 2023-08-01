@@ -510,7 +510,7 @@ table.included tr:nth-child(odd) {
 
 table.included tr:hover {
     background-color: lightsalmon;
-    font: white;
+    color: white;
 }
 
 main {
